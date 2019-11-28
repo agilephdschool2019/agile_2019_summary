@@ -23,7 +23,6 @@ processing data and generating results as well as communicating the scientific
 methods planned or applied and their results.
  
 
-
 ## Visualisation
 
 On Tuesday we had Topi Tjukanov from GISPO OY, Finland teaching cartographic, styling and animation-based capabilities to the students.
