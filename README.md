@@ -9,13 +9,13 @@ https://www.geograafia.ut.ee/en/about-us/chair-geoinformatics-and-cartography
 
 Date: 25. - 28. November, 2019
 
-![Introduction](IMG_20191125_173400)
+![Introduction](IMG_20191125_173400.jpg)
 
 
 
 ## Notes and key takeaways
 
-[Lecture Notes](notes.html)
+[Lecture Notes](notes.md)
 
 License: CC-BY-4.0
 
