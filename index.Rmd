@@ -1,13 +1,27 @@
 ---
-title: "Agile PhD School working notes"
-author: "Alexander Kmoch"
-date: "11/27/2019"
-output: html_document
+title: "AGILE PhD School working notes"
+author:
+  - given_name: Alexander
+    surname: Kmoch
+    affiliation: "1"
+    email: alexander.kmoch@ut.ee
+    corresponding: true
+  - given_name: Evelyn
+    surname: Uuemaa
+    affiliation: "1"
+affiliation:
+  - code: 1
+    address: University of Tartu
+#abstract: |
+#  The abstract goes here.
+#  It can also be on _multiple lines_.
+#bibliography: sample.bib
+running:
+  title: AGILE PhD School
+  author: Kmoch
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+\nolinenumbers
 
 The 5th Agile PhD School took place at the Chair of Geoinformatics, Department of Geography, 
 the University of Tartu, Estonia. Overall 16 highly motivated PhD students attended from universities 
@@ -22,14 +36,15 @@ own perceptions and habits in particular in regards to the process of conducting
 processing data and generating results as well as communicating the scientific
 methods planned or applied and their results.
  
-
-## Visualisation
+# Visualisation
 
 On Tuesday we had Topi Tjukanov from GISPO OY, Finland teaching cartographic, styling and animation-based capabilities to the students.
 He introduced general visual cartographic and data visualisation principles and then conducted three exercises:
 
 - a static map with a custom globe projection and dynamic coloring based on attribute tables
+
 - spatio-temporal visualisation of mobility data, based on the example of movement trains in Finland
+
 - spatio-temporal visualisation in terms of changing shape of the same feature over time on the example of variations in the ice extent of the Arctic.
 
 My key takeaways as member of the organising committee and host to the students:
@@ -53,7 +68,7 @@ For my latest research output, an extended soil dataset for Estonia, I am curren
 webtool for soil scientists and experts to test my computational framework that derives values from original text codes. Furthermore,
 I intend to also develop a small web mapping application for interested experts but also the general public to explore the new soil datasets in Estonia.
 
-## Reproducibility
+# Reproducibility
 
 On Wednesday Carlos Granell Canut and Frank Ostermann in their role as representatives of the AGILE Reproducibility Initiative
 presented vision, mission and initiatives of AGILE and how reproducibility is intended to become more required in submissions to the AGILE conference.
@@ -61,7 +76,9 @@ presented vision, mission and initiatives of AGILE and how reproducibility is in
 After their conclusion Alexander Kmoch guided the students through 3 practical exercises of The Carpentries reproducibility curricula.
 
 - Version control with Git
+
 - R Studio project management and Git integration
+
 - R Studio and Markdown to combine reproducibility concepts from data processing, coding and document writing as a single workflow.
 
 The key takeaways for me as the trainer and practioner myself:
@@ -80,7 +97,7 @@ The key takeaways for me as the trainer and practioner myself:
    and subsequently, the value for end-users, such as other scientists and experts in the 
    Ministry of Environment and the Landboard of Estonia.
 
-## Science Communication
+# Science Communication
 
 On Thursday, the students got a condensed summary of points to consider when writing with the focus on scientific communication.
 The students did a series of freewriting exercises on exploring their audience, how to structure their scientific article and 
@@ -92,17 +109,14 @@ The more we ask various questions and respective counter-questions, the more we 
 We can anticipate questions from the supervisor, the reviewers and eventually the intended target audience. This helps us to shape the text in order tell the 
 story and persude the readers of the value of our writing, and thus, our research.
 
-
-## Conclusion
+# Conclusion
 
 It was a fantastic experience for me as one of the hosts and trainers of the PhD school.
-
 I still will take a lot of the lessons from this PhD school as useful input for my own research habits as well as training materials for future generations of 
 students and emerging young researchers.
-
 I hope the collected reflections and and notes will be of value to everyone interested.
 
 Best regards,
 Alexander Kmoch
 
-Tartu, 28th of November
+Tartu, 28th of November 2019
