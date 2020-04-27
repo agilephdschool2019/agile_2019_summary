@@ -76,11 +76,11 @@ presented vision, mission and initiatives of AGILE and how reproducibility is in
 
 After their conclusion Alexander Kmoch guided the students through 3 practical exercises of The Carpentries reproducibility curricula.
 
-- Version control with [Git](https://en.wikipedia.org/wiki/Git)
+- Version control with Git[^4]
 
-- [RStudio](https://rstudio.com/products/rstudio/) project management and Git integration
+- RStudio[^5] project management and Git integration
 
-- RStudio and [R Markdown](https://rmarkdown.rstudio.com/) to combine reproducibility concepts from data processing, coding and document writing as a single workflow, so called [literate programming](https://en.wikipedia.org/wiki/Literate_programming).
+- RStudio and R Markdown[^3] to combine reproducibility concepts from data processing, coding and document writing as a single workflow, so called literate programming[^6].
 
 The key takeaways for me as the trainer and practioner myself:
 
@@ -115,8 +115,8 @@ story and persude the readers of the value of our writing, and thus, our researc
 The PhD school introduced participants to R Markdown as a powerful tool for reproducible research.
 In the preparation for the [CEUR Workshop Proceedings](http://ceur-ws.org/), the editors took advantage of this format and created a semi-automatic workflow to create high-quality PDF documents.
 The workflow is based on an R Markdown document itself and includes R scripting, the conversion of a publisher template to an R Markdown template, and adding structured metadata in the header documents.
-All manuscripts and the proceedings repository are published on GitHub in the organisation [agilephdschool2019](https://github.com/agilephdschool2019/).
-The [proceedings main repository](https://github.com/agilephdschool2019/agile_2019_phd_school_proceedings/) provides a boilerplate for future PhD schools.
+All manuscripts and the proceedings repository are published on GitHub in the organisation `agilephdschool2019`[^1].
+The proceedings main repository[^2] provides a boilerplate for future PhD schools.
 The required changes to the documents show participants how to apply a publisher template to their manuscript document, which enables them to effectively publish computational research in various styles and formats in their future career.
 
 # Conclusion
@@ -133,3 +133,10 @@ Best regards,
 Alexander Kmoch
 
 Tartu, 28th of November 2019
+
+[^1]: [https://github.com/agilephdschool2019/](https://github.com/agilephdschool2019/)
+[^2]: [https://github.com/agilephdschool2019/agile_2019_phd_school_proceedings/](https://github.com/agilephdschool2019/agile_2019_phd_school_proceedings/)
+[^3]: [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
+[^4]: [https://en.wikipedia.org/wiki/Git](https://en.wikipedia.org/wiki/Git)
+[^5]: [https://rstudio.com/products/rstudio/](https://rstudio.com/products/rstudio/)
+[^6]: [https://en.wikipedia.org/wiki/Literate_programming](https://en.wikipedia.org/wiki/Literate_programming)
