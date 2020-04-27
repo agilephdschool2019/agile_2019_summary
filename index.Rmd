@@ -8,14 +8,21 @@ author:
   - name: Evelyn Uuemaa
     affiliation: University of Tartu, Estonia
     orcid: 0000-0002-0782-6740
+  - name: Daniel Nüst
+    affiliation: University of Münster, Germany
+    email: daniel.nuest@uni-muenster.de
+    orcid: 0000-0002-0024-5046
 abstract: |
-   The 5th Agile PhD School took place at the Chair of Geoinformatics, Department of Geography, the University of Tartu, Estonia. Overall 16 highly motivated PhD students attended from universities from Europe to learn and work The main themes of the PhD school were geo-visualisation, reproducibility and science communication..
+   The 5th Agile PhD School was held at the Chair of Geoinformatics, Department of Geography, the University of Tartu, Estonia.
+   16 PhD students attended from universities across Europe worked on the main themes of geo-visualisation, reproducibility and science communication.
+   The students were challenged to question preconceived ideas, own perceptions and habits in regards to the process of conducting and communicating scientific research.
+   In this editorial we provide a few key takeaways for the main themes and sketch the process of reproducible proceedings.
 output:
   ceurticles::twocolpceurws_article
 bibliography: samplebib.bib
 ---
 
-\nolinenumbers
+# Introduction
 
 The 5th Agile PhD School took place at the Chair of Geoinformatics, Department of Geography, 
 the University of Tartu, Estonia. Overall 16 highly motivated PhD students attended from universities 
@@ -69,11 +76,11 @@ presented vision, mission and initiatives of AGILE and how reproducibility is in
 
 After their conclusion Alexander Kmoch guided the students through 3 practical exercises of The Carpentries reproducibility curricula.
 
-- Version control with Git
+- Version control with [Git](https://en.wikipedia.org/wiki/Git)
 
-- R Studio project management and Git integration
+- [RStudio](https://rstudio.com/products/rstudio/) project management and Git integration
 
-- R Studio and Markdown to combine reproducibility concepts from data processing, coding and document writing as a single workflow.
+- RStudio and [R Markdown](https://rmarkdown.rstudio.com/) to combine reproducibility concepts from data processing, coding and document writing as a single workflow, so called [literate programming](https://en.wikipedia.org/wiki/Literate_programming).
 
 The key takeaways for me as the trainer and practioner myself:
 
@@ -103,6 +110,15 @@ The more we ask various questions and respective counter-questions, the more we 
 We can anticipate questions from the supervisor, the reviewers and eventually the intended target audience. This helps us to shape the text in order tell the 
 story and persude the readers of the value of our writing, and thus, our research.
 
+# Proceedings
+
+The PhD school introduced participants to R Markdown as a powerful tool for reproducible research.
+In the preparation for the [CEUR Workshop Proceedings](http://ceur-ws.org/), the editors took advantage of this format and created a semi-automatic workflow to create high-quality PDF documents.
+The workflow is based on an R Markdown document itself and includes R scripting, the conversion of a publisher template to an R Markdown template, and adding structured metadata in the header documents.
+All manuscripts and the proceedings repository are published on GitHub in the organisation [agilephdschool2019](https://github.com/agilephdschool2019/).
+The [proceedings main repository](https://github.com/agilephdschool2019/agile_2019_phd_school_proceedings/) provides a boilerplate for future PhD schools.
+The required changes to the documents show participants how to apply a publisher template to their manuscript document, which enables them to effectively publish computational research in various styles and formats in their future career.
+
 # Conclusion
 
 It was a fantastic experience for me as one of the hosts and trainers of the PhD school.
@@ -110,7 +126,10 @@ I still will take a lot of the lessons from this PhD school as useful input for 
 students and emerging young researchers.
 I hope the collected reflections and and notes will be of value to everyone interested.
 
+\vspace{2em}
+
 Best regards,
+
 Alexander Kmoch
 
 Tartu, 28th of November 2019
