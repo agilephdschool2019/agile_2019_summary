@@ -1,24 +1,18 @@
 ---
-title: "AGILE PhD School working notes"
+title: "5th AGILE PhD School Proceedings Foreword"
 author:
-  - given_name: Alexander
-    surname: Kmoch
-    affiliation: "1"
+  - name: Alexander Kmoch
+    affiliation: University of Tartu, Estonia
     email: alexander.kmoch@ut.ee
-    corresponding: true
-  - given_name: Evelyn
-    surname: Uuemaa
-    affiliation: "1"
-affiliation:
-  - code: 1
-    address: University of Tartu
-#abstract: |
-#  The abstract goes here.
-#  It can also be on _multiple lines_.
-#bibliography: sample.bib
-running:
-  title: AGILE PhD School
-  author: Kmoch
+    orcid: 0000-0003-4386-4450
+  - name: Evelyn Uuemaa
+    affiliation: University of Tartu, Estonia
+    orcid: 0000-0002-0782-6740
+abstract: |
+   The 5th Agile PhD School took place at the Chair of Geoinformatics, Department of Geography, the University of Tartu, Estonia. Overall 16 highly motivated PhD students attended from universities from Europe to learn and work The main themes of the PhD school were geo-visualisation, reproducibility and science communication..
+output:
+  ceurticles::twocolpceurws_article
+bibliography: samplebib.bib
 ---
 
 \nolinenumbers
