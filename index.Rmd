@@ -5,13 +5,13 @@ author:
     affiliation: University of Tartu, Estonia
     email: alexander.kmoch@ut.ee
     orcid: 0000-0003-4386-4450
-  - name: Evelyn Uuemaa
-    affiliation: University of Tartu, Estonia
-    orcid: 0000-0002-0782-6740
   - name: Daniel Nüst
     affiliation: University of Münster, Germany
     email: daniel.nuest@uni-muenster.de
     orcid: 0000-0002-0024-5046
+  - name: Evelyn Uuemaa
+    affiliation: University of Tartu, Estonia
+    orcid: 0000-0002-0782-6740
 abstract: |
    The 5th Agile PhD School was held at the Chair of Geoinformatics, Department of Geography, the University of Tartu, Estonia.
    16 PhD students attended from universities across Europe worked on the main themes of geo-visualisation, reproducibility and science communication.
