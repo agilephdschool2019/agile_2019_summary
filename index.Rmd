@@ -11,6 +11,7 @@ author:
     orcid: 0000-0002-0024-5046
   - name: Evelyn Uuemaa
     affiliation: University of Tartu, Estonia
+    email: evelyn.uuemaa@ut.ee
     orcid: 0000-0002-0782-6740
 abstract: |
    The 5th Agile PhD School was held at the Chair of Geoinformatics, Department of Geography, the University of Tartu, Estonia.
@@ -118,6 +119,10 @@ The workflow is based on an R Markdown document itself and includes R scripting,
 All manuscripts and the proceedings repository are published on GitHub in the organisation `agilephdschool2019`[^1].
 The proceedings main repository[^2] provides a boilerplate for future PhD schools.
 The required changes to the documents show participants how to apply a publisher template to their manuscript document, which enables them to effectively publish computational research in various styles and formats in their future career.
+
+```{r, echo = FALSE, out.width="40%", fig.align='center', fig.cap="DOI (Zenodo archive) https://doi.org/10.5281/zenodo.3784142"}
+knitr::include_graphics('zenodo-badge.png')
+```
 
 # Conclusion
 
